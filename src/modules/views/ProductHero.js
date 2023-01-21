@@ -2,6 +2,7 @@ import * as React from 'react';
 import Button from '../components/Button';
 //import Typography from '../components/Typography';
 import ProductHeroLayout from './ProductHeroLayout';
+import { alpha } from '@mui/material';
 
 const backgroundImage = require('../../assets/preview.png');
 
@@ -36,10 +37,10 @@ export default function ProductHero() {
       <Button
         color="secondary"
         variant="contained"
-        size="large"
+        size="small"
         component="a"
         href=""
-        sx={{ minWidth: 200 }}
+        sx={{ minWidth: 200, opacity: "50%" }}
       >
         Learn More
       </Button>
